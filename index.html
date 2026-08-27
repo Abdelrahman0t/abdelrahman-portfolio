@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdelrahman — Full-Stack Developer & AI Engineer</title>
+  <meta name="description"
+    content="Portfolio of Abdelrahman - Full-Stack Developer & AI Engineer building websites, software & AI tools for businesses across Egypt & the Gulf.">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Caveat (Handwritten), Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicon / Tab Logo -->
+  <link rel="icon" type="image/jpeg" href="abdelrahman_user_headshot.jpg">
+  <link rel="apple-touch-icon" href="abdelrahman_user_headshot.jpg">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Floating Pill Navbar -->
+  <header class="floating-nav-container">
+    <nav class="nav-pill is-expanded" id="main-nav">
+      <div class="nav-brand">
+        <div class="avatar-circle">
+          <img src="abdelrahman_user_headshot.jpg" alt="Abdelrahman Avatar" class="avatar-img">
+        </div>
+        <span class="brand-name">ABDELRAHMAN</span>
+      </div>
+
+      <!-- Expandable Nav Links -->
+      <div class="nav-links" id="nav-links">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link btn-nav-accent">Contact</a>
+      </div>
+
+      <!-- 3-Dots Button -->
+      <button class="nav-toggle-btn" id="nav-toggle" aria-label="Toggle Navigation Menu">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+          <circle cx="5" cy="12" r="2.2" />
+          <circle cx="12" cy="12" r="2.2" />
+          <circle cx="19" cy="12" r="2.2" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (PANORAMIC 16:9 SKY WALLPAPER WITH ABDELRAHMAN SITTING IN THE SKY) -->
+    <section class="hero-section" id="hero">
+
+      <!-- Sky Gradient Blend at bottom -->
+      <div class="sky-bottom-fade" aria-hidden="true"></div>
+
+      <div class="hero-content-wrapper">
+        <div class="container hero-grid">
+
+          <!-- Hero Left Side Content -->
+          <div class="hero-left">
+            <div class="greeting-badge">
+              <span class="emoji">👋</span>
+              <span class="greeting-text">Hey, I'm Abdelrahman</span>
+            </div>
+
+            <!-- Hero Character Blur-Reveal Title -->
+            <h1 class="hero-title">
+              <span class="hero-line-1">
+                <span class="hero-char" style="--char-index: 0;">f</span><span class="hero-char"
+                  style="--char-index: 1;">u</span><span class="hero-char" style="--char-index: 2;">l</span><span
+                  class="hero-char" style="--char-index: 3;">l</span><span class="hero-char"
+                  style="--char-index: 4;">-</span><span class="hero-char" style="--char-index: 5;">s</span><span
+                  class="hero-char" style="--char-index: 6;">t</span><span class="hero-char"
+                  style="--char-index: 7;">a</span><span class="hero-char" style="--char-index: 8;">c</span><span
+                  class="hero-char" style="--char-index: 9;">k</span>
+              </span>
+              <span class="hero-line-2 floating-word">
+                <span class="hero-char" style="--char-index: 10;">d</span><span class="hero-char"
+                  style="--char-index: 11;">e</span><span class="hero-char" style="--char-index: 12;">v</span><span
+                  class="hero-char" style="--char-index: 13;">e</span><span class="hero-char"
+                  style="--char-index: 14;">l</span><span class="hero-char" style="--char-index: 15;">o</span><span
+                  class="hero-char" style="--char-index: 16;">p</span><span class="hero-char"
+                  style="--char-index: 17;">e</span><span class="hero-char" style="--char-index: 18;">r</span>
+              </span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Building websites, software & AI tools for businesses across Egypt & the Gulf
+            </p>
+          </div>
+
+          <!-- Hero Right Side -->
+          <div class="hero-right"></div>
+
+        </div>
+
+        <!-- Hero Bottom Bar -->
+        <div class="hero-bottom-bar">
+          <div class="container bottom-bar-inner">
+            <div class="location-meta">
+              <span class="meta-label">BASED IN</span>
+              <svg class="pin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span class="location-text">EGYPT, REMOTE</span>
+            </div>
+
+            <div class="mindset-tag">
+              <span>CODE &gt; CREATE</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHAT I DO SECTION -->
+    <section class="what-i-do-section" id="what-i-do-sec">
+      <div class="container what-i-do-layout">
+
+        <!-- Left Badge -->
+        <div class="what-badge-col">
+          <div class="what-badge">
+            <span class="diamond-icon">✦</span>
+            <span>WHAT I DO</span>
+          </div>
+        </div>
+
+        <!-- Right Main Content -->
+        <div class="what-content-col">
+          <h2 class="what-i-do-statement" id="what-i-do-statement">
+            <span class="reveal-word">I</span>
+            <span class="reveal-word">turn</span>
+            <span class="reveal-word">business</span>
+            <span class="reveal-word">problems</span>
+            <span class="reveal-word">into</span>
+            <span class="reveal-word">working</span>
+            <span class="reveal-word">software</span>
+            <span class="reveal-word">—</span>
+            <span class="reveal-word">websites</span>
+            <span class="reveal-word">that</span>
+            <span class="reveal-word">convert,</span>
+            <span class="reveal-word">tools</span>
+            <span class="reveal-word">that</span>
+            <span class="reveal-word">save</span>
+            <span class="reveal-word script-highlight">time,</span>
+            <span class="reveal-word">and</span>
+            <span class="reveal-word">AI</span>
+            <span class="reveal-word">features</span>
+            <span class="reveal-word">that</span>
+            <span class="reveal-word">actually</span>
+            <span class="reveal-word script-highlight">solve</span>
+            <span class="reveal-word dimmed-word">something.</span>
+          </h2>
+
+          <div class="stats-grid-spec">
+            <div class="stat-box-spec">
+              <div class="stat-number-spec" data-count="5" data-suffix="+">0+</div>
+              <h4 class="stat-heading-spec">Years building software</h4>
+              <p class="stat-sub-spec">websites, full-stack products & AI agents for businesses</p>
+            </div>
+
+            <div class="stat-box-spec">
+              <div class="stat-number-spec" data-count="20" data-suffix="+">0+</div>
+              <h4 class="stat-heading-spec">Projects shipped</h4>
+              <p class="stat-sub-spec">delivered across Egypt, Gulf region & remote international teams</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEPARATE SECTION HEADER WITH CHARACTER BLUR-REVEAL TITLE & LINE BLUR SUBTITLE -->
+    <section class="work-header-section" id="work">
+      <div class="container text-center">
+        
+        <!-- Badge -->
+        <div class="section-badge">PORTFOLIO</div>
+
+        <!-- Character-by-Character Blur-Reveal Title -->
+        <h2 class="section-title" aria-label="Some Of My Work">
+          <span class="work-word">
+            <span class="work-char">S</span><span class="work-char">o</span><span class="work-char">m</span><span class="work-char">e</span>
+          </span>
+          <span class="work-word">
+            <span class="work-char">O</span><span class="work-char">f</span>
+          </span>
+          <span class="work-word">
+            <span class="work-char">M</span><span class="work-char">y</span>
+          </span>
+          <span class="work-word">
+            <span class="work-char">W</span><span class="work-char">o</span><span class="work-char">r</span><span class="work-char">k</span>
+          </span>
+        </h2>
+
+        <!-- Subtitle -->
+        <div class="work-desc-wrap" id="work-desc-wrap">
+          <p class="section-desc">Real-world applications built for growth, speed, and user engagement.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FULL SCREEN 100VW EDGE-TO-EDGE STACK CONTAINER -->
+    <div class="scroll-stack-container" id="cards-container">
+
+      <!-- CARD 01 WRAPPER: Opera -->
+      <div class="stacking-card-wrapper card-wrapper-1" data-index="0">
+        <article class="stacking-card card-1">
+          <div class="full-card-bg">
+            <div class="card-glass-panel">
+              <div class="glass-header">
+                <span class="glass-badge">01</span>
+                <span class="glass-year">2026</span>
+              </div>
+              <h3 class="glass-title">Opera</h3>
+              <div class="glass-tags">
+                <span class="gtag">Real Estate</span>
+                <span class="gtag">Luxury Property</span>
+                <span class="gtag">Full Stack</span>
+              </div>
+              <p class="glass-desc">
+                Full-featured luxury real estate platform built for Egypt's premier markets — covering New Cairo, New Capital, Sheikh Zayed, and North Coast. Features advanced filtering, installment plans, agent directories, and conversion-ready consultation capture.
+              </p>
+              <a href="https://opera-gamma-eight.vercel.app/" class="btn-case-study" target="_blank" rel="noopener noreferrer">
+                <span class="btn-arrow-circle">→</span>
+                <span>View Project</span>
+              </a>
+            </div>
+
+            <div class="card-right-visual">
+              <div class="card-image-mockup">
+                <img src="771shots_so.png" alt="Opera Real Estate Platform Screenshot" class="project-screenshot-img">
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- CARD 02 WRAPPER: ArtCase -->
+      <div class="stacking-card-wrapper card-wrapper-2" data-index="1">
+        <article class="stacking-card card-2">
+          <div class="full-card-bg">
+            <div class="card-glass-panel">
+              <div class="glass-header">
+                <span class="glass-badge">02</span>
+                <span class="glass-year">2026</span>
+              </div>
+              <h3 class="glass-title">ArtCase Custom Case Studio</h3>
+              <div class="glass-tags">
+                <span class="gtag">Next.js</span>
+                <span class="gtag">Custom Studio</span>
+                <span class="gtag">E-Commerce</span>
+              </div>
+              <p class="glass-desc">
+                Interactive platform allowing users to transform their phone into custom art. Features an easy-to-use design studio, live 3D-style previews, fast checkout, and dynamic artist collections.
+              </p>
+              <a href="https://artcase.vercel.app/" class="btn-case-study" target="_blank" rel="noopener noreferrer">
+                <span class="btn-arrow-circle">→</span>
+                <span>View Project</span>
+              </a>
+            </div>
+
+            <div class="card-right-visual">
+              <div class="card-image-mockup">
+                <img src="314shots_so.png" alt="ArtCase E-Commerce Screenshot" class="project-screenshot-img">
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- CARD 03 WRAPPER: Crestmont -->
+      <div class="stacking-card-wrapper card-wrapper-3" data-index="2">
+        <article class="stacking-card card-3">
+          <div class="full-card-bg">
+            <div class="card-glass-panel">
+              <div class="glass-header">
+                <span class="glass-badge">03</span>
+                <span class="glass-year">2026</span>
+              </div>
+              <h3 class="glass-title">Crestmont Private Equity Real Estate</h3>
+              <div class="glass-tags">
+                <span class="gtag">Private Equity</span>
+                <span class="gtag">Real Estate</span>
+                <span class="gtag">Institutional Design</span>
+              </div>
+              <p class="glass-desc">
+                Institutional private equity real estate template built for high-end investment firms — featuring deep emerald palette, gold hairline accents, full-bleed rotating property hero, editorial team profiles, strategic approach showcase, and Investor Club lead capture.
+              </p>
+              <a href="https://crestmont-realestate.vercel.app/" class="btn-case-study" target="_blank" rel="noopener noreferrer">
+                <span class="btn-arrow-circle">→</span>
+                <span>View Project</span>
+              </a>
+            </div>
+
+            <div class="card-right-visual">
+              <div class="card-image-mockup">
+                <img src="crestmont_shot.png" alt="Crestmont Private Equity Real Estate Screenshot" class="project-screenshot-img">
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- CARD 04 WRAPPER: Modreck -->
+      <div class="stacking-card-wrapper card-wrapper-4" data-index="3">
+        <article class="stacking-card card-4">
+          <div class="full-card-bg">
+            <div class="card-glass-panel">
+              <div class="glass-header">
+                <span class="glass-badge">04</span>
+                <span class="glass-year">2026</span>
+              </div>
+              <h3 class="glass-title">Modreck AI Support Platform</h3>
+              <div class="glass-tags">
+                <span class="gtag">AI Chatbot</span>
+                <span class="gtag">Automation</span>
+                <span class="gtag">Python / LLMs</span>
+              </div>
+              <p class="glass-desc">
+                Custom AI chatbot engineered for 24/7 intelligent business support. Learns from company knowledge to deliver instant answers, multilingual support, and automated conversation analytics.
+              </p>
+              <a href="https://modreck.com/" class="btn-case-study" target="_blank" rel="noopener noreferrer">
+                <span class="btn-arrow-circle">→</span>
+                <span>View Project</span>
+              </a>
+            </div>
+
+            <div class="card-right-visual">
+              <div class="card-image-mockup">
+                <img src="574shots_so.png" alt="Modreck AI Support Platform Screenshot" class="project-screenshot-img">
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- CARD 05 WRAPPER: Prochaudiere -->
+      <div class="stacking-card-wrapper card-wrapper-5" data-index="4">
+        <article class="stacking-card card-5">
+          <div class="full-card-bg">
+            <div class="card-glass-panel">
+              <div class="glass-header">
+                <span class="glass-badge">05</span>
+                <span class="glass-year">2026</span>
+              </div>
+              <h3 class="glass-title">Prochaudiere E-Commerce</h3>
+              <div class="glass-tags">
+                <span class="gtag">Full-Stack</span>
+                <span class="gtag">E-Commerce</span>
+                <span class="gtag">Boiler Spare Parts</span>
+              </div>
+              <p class="glass-desc">
+                Leading industrial e-commerce platform for boiler spare parts across Algeria. Features category filtering, product search, multi-brand compatibility catalogs, cart management, and fast nationwide delivery.
+              </p>
+              <a href="https://prochaudiere.duckdns.org/" class="btn-case-study" target="_blank" rel="noopener noreferrer">
+                <span class="btn-arrow-circle">→</span>
+                <span>View Project</span>
+              </a>
+            </div>
+
+            <div class="card-right-visual">
+              <div class="card-image-mockup">
+                <img src="38shots_so.png" alt="Prochaudiere E-Commerce Screenshot" class="project-screenshot-img">
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- CARD 06 WRAPPER: Al-Mutlaq -->
+      <div class="stacking-card-wrapper card-wrapper-6" data-index="5">
+        <article class="stacking-card card-6">
+          <div class="full-card-bg">
+            <div class="card-glass-panel">
+              <div class="glass-header">
+                <span class="glass-badge">06</span>
+                <span class="glass-year">2025</span>
+              </div>
+              <h3 class="glass-title">Al-Mutlaq Luxury Estates</h3>
+              <div class="glass-tags">
+                <span class="gtag">Real Estate</span>
+                <span class="gtag">Full Stack</span>
+                <span class="gtag">Web Design</span>
+              </div>
+              <p class="glass-desc">
+                High-converting luxury real estate platform engineered for seamless property browsing, interactive map
+                search, and rapid lead capture.
+              </p>
+              <a href="https://realestate-template-ksa.vercel.app/" class="btn-case-study" target="_blank" rel="noopener noreferrer">
+                <span class="btn-arrow-circle">→</span>
+                <span>View Project</span>
+              </a>
+            </div>
+
+            <div class="card-right-visual">
+              <div class="card-image-mockup">
+                <img src="110shots_so.png" alt="Al-Mutlaq Luxury Estates Screenshot" class="project-screenshot-img">
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+
+    <!-- ABOUT ME SECTION (FRAMER CHARACTER-BY-CHARACTER BLUR-REVEAL) -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Left Column: Polaroid Photo Frame -->
+          <div class="about-left">
+            <div class="polaroid-frame">
+              <div class="polaroid-img-wrapper">
+                <img src="nigg.jpg" alt="Abdelrahman Portrait" class="about-portrait-img">
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Framer Character Blur-Reveal Content -->
+          <div class="about-right">
+            <div class="about-badge">
+              <span class="diamond-icon">✦</span>
+              <span>ABOUT ME</span>
+            </div>
+
+            <!-- Character-by-Character Blur-Reveal Title -->
+            <h2 class="about-title" id="about-title-blur">
+              <span class="about-word">
+                <span class="about-char">a</span>
+              </span>
+              <span class="about-word">
+                <span class="about-char">l</span><span class="about-char">i</span><span class="about-char">t</span><span
+                  class="about-char">t</span><span class="about-char">l</span><span class="about-char">e</span>
+              </span>
+              <span class="about-word">
+                <span class="about-char">a</span><span class="about-char">b</span><span class="about-char">o</span><span
+                  class="about-char">u</span><span class="about-char">t</span>
+              </span>
+              <span class="about-word">
+                <span class="about-char">m</span><span class="about-char">y</span><span class="about-char">s</span><span
+                  class="about-char">e</span><span class="about-char">l</span><span class="about-char">f</span>
+              </span>
+            </h2>
+
+            <!-- Fade-In Container for Bio Text & Signature -->
+            <div class="about-bio-wrap" id="about-bio-wrap">
+              <p class="bio-text">
+  I'm a computer science student with a deep interest in building products, not just writing code.
+  Over the past couple of years, I've worked across frontend, backend, and full-stack development —
+  designing and shipping real projects for clients while continuing to sharpen my technical foundation.
+</p>
+<p class="bio-text">
+  Lately, I've been focused on building SaaS products and studying business alongside my technical
+  work — I want to understand not just how to build something, but how to turn it into something
+  people actually pay for. I'm drawn to the intersection of good product thinking, clean execution,
+  and real market validation.
+</p>
+
+              <div class="sign-off">Abdelrahman.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HORIZONTAL SCROLL-DRIVEN TIMELINE SECTION: MY TECH JOURNEY -->
+    <section class="journey-section" id="journey">
+      <div class="journey-sticky-wrapper">
+        <div class="container">
+          
+          <!-- Section Header -->
+          <div class="section-header-wrap text-center">
+            <div class="journey-badge-top">
+              <span class="badge-diamond">✦</span> EXPERIENCE
+            </div>
+            <h2 class="journey-main-title" aria-label="the journey so far">
+              <span class="journey-word">
+                <span class="journey-char">t</span><span class="journey-char">h</span><span class="journey-char">e</span>
+              </span>
+              <span class="journey-word">
+                <span class="journey-char">j</span><span class="journey-char">o</span><span class="journey-char">u</span><span class="journey-char">r</span><span class="journey-char">n</span><span class="journey-char">e</span><span class="journey-char">y</span>
+              </span>
+              <span class="journey-word">
+                <span class="journey-char">s</span><span class="journey-char">o</span>
+              </span>
+              <span class="journey-word">
+                <span class="journey-char">f</span><span class="journey-char">a</span><span class="journey-char">r</span>
+              </span>
+            </h2>
+            <p class="journey-main-subtitle journey-subtitle-wrap" id="journey-subtitle-wrap">Building websites, software & AI tools — 5 core capabilities across design, frontend, backend & automation.</p>
+          </div>
+
+          <!-- Timeline Track Window -->
+          <div class="journey-track-window">
+            <div class="journey-track" id="journey-track">
+              <!-- Center Horizontal Line (connects center of Card 1 to center of Card 5) -->
+              <div class="journey-center-line" aria-hidden="true"></div>
+              
+              <!-- Card 1: UI/UX (Stage 01 - Pill Top) -->
+              <div class="journey-node pill-top" data-index="0">
+                <div class="journey-pill-badge green-pill">Stage 01</div>
+                <div class="journey-stem-line">
+                  <span class="journey-dot-head"></span>
+                </div>
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <div class="journey-icon-box">
+                      <!-- Figma Logo SVG -->
+                      <svg viewBox="0 0 38 57" width="24" height="24" fill="none">
+                        <path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/>
+                        <path d="M0 47.5a9.5 9.5 0 0 1 9.5-9.5H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/>
+                        <path d="M0 28.5a9.5 9.5 0 0 1 9.5-9.5H19v19H9.5A9.5 9.5 0 0 1 0 28.5z" fill="#A259FF"/>
+                        <path d="M0 9.5A9.5 9.5 0 0 1 9.5 0H19v19H9.5A9.5 9.5 0 0 1 0 9.5z" fill="#F24E1E"/>
+                        <path d="M19 0h9.5a9.5 9.5 0 1 1 0 19H19V0z" fill="#FF7262"/>
+                      </svg>
+                    </div>
+                    <div class="journey-head-text">
+                      <h3 class="journey-card-title">UI / UX Design</h3>
+                      <span class="journey-sub-tag">Figma & Prototyping</span>
+                    </div>
+                    <span class="journey-location-tag">📍 Where it started</span>
+                  </div>
+                  <ul class="journey-bullets">
+                    <li>Design thinking and prototyping</li>
+                    <li>Mapped user flows before writing code</li>
+                    <li>Built the foundation for product-minded development</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Card 2: Next.js (Stage 02 - Pill Bottom) -->
+              <div class="journey-node pill-bottom" data-index="1">
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <div class="journey-icon-box">
+                      <img src="nextjslogo.png" alt="Next.js Logo" width="28" height="28" style="object-fit: contain;">
+                    </div>
+                    <div class="journey-head-text">
+                      <h3 class="journey-card-title">Next.js</h3>
+                      <span class="journey-sub-tag">React Ecosystem</span>
+                    </div>
+                    <span class="journey-location-tag">📍 Frontend</span>
+                  </div>
+                  <ul class="journey-bullets">
+                    <li>Built component-based frontend architecture</li>
+                    <li>Shipped responsive, production-ready UIs</li>
+                    <li>Deployed via Netlify and Cloudflare Pages</li>
+                  </ul>
+                </div>
+                <div class="journey-stem-line">
+                  <span class="journey-dot-head"></span>
+                </div>
+                <div class="journey-pill-badge blue-pill">Stage 02</div>
+              </div>
+
+              <!-- Card 3: Python / Django (Stage 03 - Pill Top) -->
+              <div class="journey-node pill-top" data-index="2">
+                <div class="journey-pill-badge blue-pill">Stage 03</div>
+                <div class="journey-stem-line">
+                  <span class="journey-dot-head"></span>
+                </div>
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <div class="journey-icon-box">
+                      <img src="djangologo.png" alt="Django Logo" width="28" height="28" style="object-fit: contain;">
+                    </div>
+                    <div class="journey-head-text">
+                      <h3 class="journey-card-title">Python / Django</h3>
+                      <span class="journey-sub-tag">API & Server Logic</span>
+                    </div>
+                    <span class="journey-location-tag">📍 Backend</span>
+                  </div>
+                  <ul class="journey-bullets">
+                    <li>Built server logic and REST APIs</li>
+                    <li>Managed databases and authentication</li>
+                    <li>Powered real client projects end-to-end</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Card 4: AI Automation (Stage 04 - Pill Bottom) -->
+              <div class="journey-node pill-bottom" data-index="3">
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <div class="journey-icon-box">
+                      <img src="n8nlogo.svg" alt="n8n Logo" width="28" height="28" style="object-fit: contain;">
+                    </div>
+                    <div class="journey-head-text">
+                      <h3 class="journey-card-title">AI Automation</h3>
+                      <span class="journey-sub-tag">n8n & AI Pipelines</span>
+                    </div>
+                    <span class="journey-location-tag">📍 Automation</span>
+                  </div>
+                  <ul class="journey-bullets">
+                    <li>Built automated workflows connecting APIs</li>
+                    <li>Designed AI-agent pipelines</li>
+                    <li>Reduced manual repetitive tasks</li>
+                  </ul>
+                </div>
+                <div class="journey-stem-line">
+                  <span class="journey-dot-head"></span>
+                </div>
+                <div class="journey-pill-badge blue-pill">Stage 04</div>
+              </div>
+
+              <!-- Card 5: Mobile (Stage 05 - Pill Top) -->
+              <div class="journey-node pill-top" data-index="4">
+                <div class="journey-pill-badge green-pill">Stage 05</div>
+                <div class="journey-stem-line">
+                  <span class="journey-dot-head"></span>
+                </div>
+                <div class="journey-card">
+                  <div class="journey-card-top">
+                    <div class="journey-icon-box">
+                      <img src="flutterlogo.svg" alt="Flutter Logo" width="26" height="26" style="object-fit: contain;">
+                    </div>
+                    <div class="journey-head-text">
+                      <h3 class="journey-card-title">Mobile Engineering</h3>
+                      <span class="journey-sub-tag">Flutter / React Native</span>
+                    </div>
+                    <span class="journey-location-tag">📍 Present / Expanding</span>
+                  </div>
+                  <ul class="journey-bullets">
+                    <li>Built cross-platform mobile apps</li>
+                    <li>Applied mobile-first product thinking</li>
+                    <li>Extending full-stack skills to native experiences</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- End Spacer to guarantee full Card 5 centering across all browsers -->
+              <div class="journey-end-spacer" aria-hidden="true"></div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY WORK WITH ME SECTION -->
+    
+
+    <!-- SKY CLOUDS FOOTER SECTION -->
+    <footer class="site-sky-footer" id="contact">
+      <div class="container sky-footer-container">
+        
+        <!-- Top CTA Row: Headline + Video/Image Card Frame -->
+        <div class="sky-cta-row">
+          <div class="sky-cta-left">
+            <h2 class="sky-cta-heading">
+              lets <span class="cta-script-font" id="dynamic-footer-word">design</span><br>
+              incredible work together.
+            </h2>
+          </div>
+
+          <div class="sky-cta-right">
+            <div class="sky-card-frame">
+              <video src="https://framerusercontent.com/assets/ZFhoqlxuV09Rbo2TYA3i62HyQ.mp4" loop preload="auto" muted autoplay playsinline disablepictureinpicture disableremoteplayback class="sky-frame-img"></video>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Details & Socials Row -->
+        <div class="sky-info-row">
+          <div class="info-group">
+            <span class="info-label">Email</span>
+            <a href="mailto:abdelrahman@example.com" class="info-val">tboody23456@gmail.com</a>
+          </div>
+
+          <div class="info-group">
+            <span class="info-label">Social</span>
+            <div class="sky-social-icons">
+              <a href="https://www.instagram.com/abdelrahman_axiom/" target="_blank" rel="noopener" class="sky-icon-btn" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/abdelrahman-tarek-4b9746218/" target="_blank" rel="noopener" class="sky-icon-btn" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                </svg>
+              </a>
+              <a href="https://wa.me/201063117050" target="_blank" rel="noopener" class="sky-icon-btn" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984 0 1.758.459 3.474 1.33 4.982l-1.413 5.163 5.283-1.386a9.937 9.937 0 0 0 4.787 1.226h.004c5.498 0 9.986-4.479 9.986-9.986 0-2.667-1.038-5.174-2.924-7.062a9.917 9.917 0 0 0-7.063-2.923zm5.82 14.161c-.244.687-1.42 1.312-1.961 1.393-.497.073-1.139.106-1.838-.117-.424-.135-.97-.312-1.673-.615-2.954-1.272-4.887-4.26-5.036-4.457-.146-.197-1.205-1.605-1.205-3.061 0-1.457.763-2.174 1.034-2.467.271-.294.593-.367.791-.367.198 0 .396.002.567.01.183.008.428-.069.67.513.244.588.835 2.037.907 2.185.073.148.122.321.025.517-.097.196-.146.319-.292.49-.147.172-.309.385-.44.516-.147.147-.301.308-.13.6.171.293.762 1.258 1.636 2.037 1.124 1.002 2.073 1.313 2.366 1.46.293.147.464.123.636-.073.171-.196.734-.856.929-1.15.196-.294.391-.245.659-.147.269.098 1.708.807 2.001.954.293.147.489.22.562.343.073.122.073.71-.171 1.397z"/>
+                </svg>
+              </a>
+              
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Divider & Copyright Row -->
+        <div class="sky-copy-row">
+          <span class="sky-copy-text">&copy; 2026 Abdelrahman</span>
+        </div>
+
+        <!-- Giant Watermark Text -->
+        <div class="sky-watermark-wrap">
+          <span class="sky-watermark-text">ABDELRAHMAN</span>
+        </div>
+
+      </div>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
